@@ -51,10 +51,10 @@ html{
 .ul-navigation-bar { 
     //ul class for nav bar
     background-color: white; //#99F5D0;
-    padding: 0.5rem;
+    padding: 1.0rem;
     border-radius: 4rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    // margin-left: 5rem;
+    // margin-right: 5rem;
 
     li:last-child{
             background-color: #6DF2E5;
@@ -67,11 +67,6 @@ html{
             .log-in-sign-up {
                 background-color: #6DF2E5;
 
-            //     &:hover{
-            //         background-color: #D9B29C;
-            //         color: black;
-            //         transition: all 0.5s ease-in-out;
-            //     }
             }
             
 
@@ -235,11 +230,9 @@ footer {
 }
 
 .copyright {
-        padding: 2rem 4rem;
         font-size: 0.8rem;
         text-align: center;
         justify-content: center;
-        padding: 1rem;
     }
 
 
@@ -315,34 +308,6 @@ footer {
     padding: 2rem 2rem;
     font-size: 1.2rem;
 }
-
-// .contact-silks {
-//     // display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     // padding: 2rem;
-// }
-
-// container {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     width: 100%;
-
-//     div {
-//         width: 100%;
-//         display: flex;
-
-//         // img {  
-//         //     // display: flex;
-//         //     align-items: center;
-//         //     justify-self: center;
-//         //     padding-left: 5rem;
-//         // }
-
-        
-//     }
-// }
 
 form.input-group {
     display: flex;
@@ -453,51 +418,29 @@ form.input-group {
 
 // FAQS page styling
 
-.faqs-pic {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5rem;
-
-
-}
-
-.faq-accordion {
-
-    padding: 5rem;
-    width: 80%;
-    margin: 0 auto;
-
-    .accordion-item{
-        margin: 3rem;
-    }
-
-    .accordion-body {
-        background-color: #212529;
+.accordion-body{
+    background-color: #212529;
         color: #D9B29C;
         font-size: 1.2rem;
-    }
+}
+
 
     .accordion-button {
     background-color: #3A3259;
     color: white;
     font-size: 1.4rem;
+
+        &:not(.collapsed){
+            background-color: #3A3259;
+            color: white;
+        }
         
+
         &::after {
             filter: brightness(0) invert(1);
         }
-
-    
-
     }
 
-
-}
-
-.accordion-item {
-    gap: 2rem;
-    
-}
 
 
 
