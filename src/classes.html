@@ -15,23 +15,33 @@
     
 </head>
 <body>
-    <nav>
-                <div class="logo">
-            <img fetchpriority="high" sizes="400rem" srcset="https://static.wixstatic.com/media/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png 1x, https://static.wixstatic.com/media/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png 2x" id="img_comp-lqh8bv9g" src="https://static.wixstatic.com/media/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png" alt="1.png" style="object-fit:cover" class="BI8PVQ Tj01hh" width="400rem" height="200rem">
+                <div class="logo container-fluid">
+                    <img fetchpriority="high" class="img-fluid-sm"  srcset="https://static.wixstatic.com/media/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png 1x, https://static.wixstatic.com/media/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png 2x" id="img_comp-lqh8bv9g" src="https://static.wixstatic.com/media/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20e23c_ec7c71d7faed4cb2affb56e338946a51~mv2.png" alt="1.png" style="object-fit:cover" width="400rem" height="200rem">
                 </div>
-                <ul class="ul-navigation-bar container container-fluid align-items-center d-flex">   
+
+            <nav class="navbar navbar-expand-md d-flex navbar-dark pt-0 pb-3 sticky-top">
+                <div class="container">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse w-100" id="navbarNav">
+                <ul class="ul-navigation-bar navbar-nav ms-auto w-100 align-items-center justify-content-between">    
                     <li><a href="home.html">Home</a></li>
                     <li><a href="classes.html" class="active">Classes</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
                     <li><a href="parties.html">Parties</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="contact.html"  >Contact</a></li>
+                    <li><a href="faqs.html" >FAQs</a></li>
                     <li class="log-in-sign-up"><a href="https://student.groovio.com.au/login" class="log-in-sign-up" >Log In / Sign Up</a></li>
                 </ul>
+                </div>
+                </div>
             </nav>
 
     <main>
-        <div class="jumbotron">
+        <div class="jumbotron img-fluid">
             <h1>Welcome to Utah's Largest Circus studio! We can't wait to fly with you!</h1>
         </div>
 
@@ -61,140 +71,243 @@
             </div>
 
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Aerial Foundations</h3>
-                    <div class="class-content">
-                        <p>***This is a required class before moving up to any of our regular aerial courses***
-                        Aerial Foundations is an integral class in introducing students to all the different aerial apparatuses that Kairos has at the studio: fabric, hammock, hoop, and trapeze. This class focuses on building the unique strength and conditioning required for succeeding in your aerial journey!</p>
+                <div class="carousel-item active ">
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Aerial Foundations</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#aerialText" aria-controls="aerialText" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="aerialText">
 
-                        <!-- <p>Instructors will spend time strengthening grip, hip flexors, abdominals, and upper body. This class will also spend time conditioning the pressure points a student will encounter when working with an apparatus in their arm pits, elbows, hip flexors, and knees. Laying a foundation is an important step in any students progress and this class will help poise everyone for a successful future here at Kairos!</p> -->
+                        
+                                
+
+                                <div class="" id="aerialText">
+                                    <p class="text-wrap w-100">This is a required class before moving up to any of our regular aerial courses***</p>
+                                    <p class="text-wrap w-100">Aerial Foundations is an integral class in introducing students to all the different aerial apparatuses that Kairos has at the studio: fabric, hammock, hoop, and trapeze.</p>
+                                    <p class="text-wrap w-100">This class focuses on building the unique strength and conditioning required for succeeding in your aerial journey!</p>
+                                </div>
+                              
+                           
                     </div>
+                            
+                            </div>
                     </div>
                 </div>
+
+                
                 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Intro to Pole Fitness</h3>
-                        <div class="class-content">
-                            <p>This is the class every beginning pole student should take. We will talk about what to wear, safety precautions, and learn basic pole curriculum including basic inverts, climbing, and spins! Be prepared to learn some short and fun combos and have lots of fun! Regular gym attire (shorts, sports bra with a tank or T-shirt is great). Please NO jewelry and  do NOT lotion your legs or hands however. Thanks!</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Intro to Pole Fitness</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#poleText" aria-controls="poleText" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="poleText">
+
+                        
+                                
+
+                                <div class="" id="poleText">
+                                    <p>This is the class every beginning pole student should take. We will talk about what to wear, safety precautions, and learn basic pole curriculum including basic inverts, climbing, and spins! Be prepared to learn some short and fun combos and have lots of fun! Regular gym attire (shorts, sports bra with a tank or T-shirt is great). Please NO jewelry and  do NOT lotion your legs or hands however. Thanks!</p>
+                                </div>
+                              </div>
+                           
+                    </div>
+
+                    
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Yoga</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#yoga" aria-controls="yoga" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="yoga">
+                                <div class="" id="yoga">
+                                   <p>Our yoga room is heated to allow for a deeper release and to avoid injury. The Hot Yoga class is recommended for everyone, from first day beginners to advanced students. The magic of this class is that everyone is practicing the same posture at different levels of ability, receiving the same benefits. There is an exact position for everyone at every level, which our trained instructors will help you find.</p>
+                                </div>
+                              </div>
+                           
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Be Bendy</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#bendy" aria-controls="bendy" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="bendy">
+                                <div class="" id="bendy">
+                                   <p>The lovely and most bendable will lead you through a great flexibility class that will push your limbs to their limits. If you want to be a more pretty pole/aerial dancer, flexibility is a must. An all levels class with our knowledgeable instructors; they will safely and effectively help you push your body to its flexibility limits.</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Yoga</h3>
-                        <div class="class-content">
-                            <p>Our yoga room is heated to allow for a deeper release and to avoid injury. The Hot Yoga class is recommended for everyone, from first day beginners to advanced students. The magic of this class is that everyone is practicing the same posture at different levels of ability, receiving the same benefits. There is an exact position for everyone at every level, which our trained instructors will help you find.</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Intermediate Pole</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#interP" aria-controls="interP" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="interP">
+                                <div class="" id="interP">
+                                  <p>Intermediate Pole is strength building and conditioning. Students will learn inverts and shoulder mounts, both from the ground and aerial. Basic inverted moves and shorts combos. Must be able to safely climb to the top of the pole, must be able to hold chopper for 3-5 seconds in order to take Intermediate Pole.</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Be Bendy</h3>
-                        <div class="class-content">
-                            <p>The lovely and most bendable will lead you through a great flexibility class that will push your limbs to their limits. If you want to be a more pretty pole/aerial dancer, flexibility is a must. An all levels class with our knowledgeable instructors; they will safely and effectively help you push your body to its flexibility limits.</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Advanced Pole</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#advP" aria-controls="advP" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="advP">
+                                <div class="" id="advP">
+                                  <p>This class will be focusing on transitions, building endurance. Students will learn/working on long combos, power moves and/or contortion moves. Students must be able to aerial invert and shoulder mount, be competent in leg and body switches and be comfortable with less points of contact on the pole.</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Intermediate Pole</h3>
-                        <div class="class-content">
-                            <p>Intermediate Pole is strength building and conditioning. Students will learn inverts and shoulder mounts, both from the ground and aerial. Basic inverted moves and shorts combos. Must be able to safely climb to the top of the pole, must be able to hold chopper for 3-5 seconds in order to take Intermediate Pole.</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">All Things Hand Springs</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#aths" aria-controls="aths" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="aths">
+                                <div class="" id="aths">
+                                  <p>Pole class for level 2 and up. In this class students will learn the fundamentals of handspings including grip variations leg positions, and transitions to and from handsprings. Students will also learn lifts into handsprings from the floor and pole, and levatation poses. This class can be very simple for the introductory level handspringer or very challenging for the fearless advanced poler.</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Advanced Pole</h3>
-                        <div class="class-content">
-                            <p>This class will be focusing on transitions, building endurance. Students will learn/working on long combos, power moves and/or contortion moves. Students must be able to aerial invert and shoulder mount, be competent in leg and body switches and be comfortable with less points of contact on the pole.</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Silks 1.5</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#silks1.5" aria-controls="silks1.5" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="silks1.5">
+                                <div class="" id="silks1.5">
+                                  <p>In this aerial silks class we will explore creativity with new climbs and foot lock combos. To attend this class you will need to be comfortable tying foot locks into split and climb to the top of the silk. Please wear leggings/tights and a fitted shirt. Please do not wear jewelry or clothing with sequins, rhinestones or zippers.</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>All Things Hand Springs</h3>
-                        <div class="class-content">
-                            <p>Pole class for level 2 and up. In this class students will learn the fundamentals of handspings including grip variations leg positions, and transitions to and from handsprings. Students will also learn lifts into handsprings from the floor and pole, and levatation poses. This class can be very simple for the introductory level handspringer or very challenging for the fearless advanced poler.</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Silks 2.0</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#silks2.0" aria-controls="silks2.0" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="silks2.0">
+                                <div class="" id="silks2.0">
+                                  <p>In this aerial silks class we will work on endurance, personal style and combos. To attend this class you should be comfortable with inverts, hip keys and egg beaters. Wear leggings/tights and a fitted shirt.</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Silks 1.5</h3>
-                        <div class="class-content">
-                            <p>In this aerial silks class we will explore creativity with new climbs and foot lock combos. To attend this class you will need to be comfortable tying foot locks into split and climb to the top of the silk. Please wear leggings/tights and a fitted shirt. Please do not wear jewelry or clothing with sequins, rhinestones or zippers.</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Silks 2.5</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#silks2.5" aria-controls="silks2.5" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="silks2.5">
+                                <div class="" id="silks2.5">
+                                  <p>In this aerial silks class we will create and explore combos with drops and spins. To attend this class you should be comfortable doing an invert and hip key after climbing the silk. Wear leggings/tights and a fitted shirt. Please do not wear jewelry or clothing with the following: sequins, rhinestones or zippers.</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Silks 2.0</h3>
-                        <div class="class-content">
-                            <p>In this aerial silks class we will work on endurance, personal style and combos. To attend this class you should be comfortable with inverts, hip keys and egg beaters. Wear leggings/tights and a fitted shirt.</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Aerial Hoop</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#aerialHoop" aria-controls="aerialHoop" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="aerialHoop">
+                                <div class="" id="aerialHoop">
+                                  <p>Aerial Hoop is a 1.5/2.0 level class where you will discover combos and transitions, mounts, and holds on the steel apparatuses. Students should be comfortable with at least 2 types of mounts and 2 types of holds for advancement to this class. Please wear form fitting clothing, socks if desired. No jewelry, rhinestones, bulky zippers or shoes.</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Silks 2.5</h3>
-                        <div class="class-content">
-                            <p>In this aerial silks class we will create and explore combos with drops and spins. To attend this class you should be comfortable doing an invert and hip key after climbing the silk. Wear leggings/tights and a fitted shirt. Please do not wear jewelry or clothing with the following: sequins, rhinestones or zippers.</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Hammock 1.5</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#hammock" aria-controls="hammock" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="hammock">
+                                <div class="" id="hammock">
+                                 <p>This hammock class will introduce you to drops, aerial inverts and combos. To attend this class you will need to be comfortable with mounts, standing in the fabric and the circus sit. Wear tights/leggings and a fitted shirt. Please do not wear jewelry or clothing with any of the following: Sequins, rhinestones or zippers.</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Aerial Hoop</h3>
-                        <div class="class-content">
-                            <p>Aerial Hoop is a 1.5/2.0 level class where you will discover combos and transitions, mounts, and holds on the steel apparatuses. Students should be comfortable with at least 2 types of mounts and 2 types of holds for advancement to this class. Please wear form fitting clothing, socks if desired. No jewelry, rhinestones, bulky zippers or shoes.</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Hammock 2.0</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#hammock2.0" aria-controls="hammock2.0" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="hammock2.0">
+                                <div class="" id="hammock2.0">
+                                 <p>This hammock class is designed to build endurance and challenge your creativity. To attend this class you must be able to do an aerial invert. Wear leggings/tights and a fitted shirt. Please do not wear jewelry or clothing with any of the following: Sequins, rhinestones or zippers. Must attend Hammock 1.5</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Hammock 1.5</h3>
-                        <div class="class-content">
-                            <p>This hammock class will introduce you to drops, aerial inverts and combos. To attend this class you will need to be comfortable with mounts, standing in the fabric and the circus sit. Wear tights/leggings and a fitted shirt. Please do not wear jewelry or clothing with any of the following: Sequins, rhinestones or zippers.</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Black Light I & II & Chair Dancing</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#blackLight" aria-controls="blackLight" aria-expanded="false">Learn More</button>
+                            <div class="class-content-14 collapse" id="blackLight">
+                                <div class="" id="blackLight">
+                                 <p>Venture into the sexy side of pole and dance. In this class we’ll be learning sensual, naughty, and sexy moves done in the dark with black lights. This class is a confidence building, incredible workout that will leave you wanting more.  All levels welcome ( See instructor for Black Light II). Heels not required but encouraged and leg warmers or socks to protect those knees. Come prepared to have the most fun dancing possible, and don't forget your UV reactive clothing! This class is for people 18 years and older. No exceptions. Anyone who is willing to participate in this class is welcome to attend. This is a safe space for all!</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Hammock 2.0</h3>
-                        <div class="class-content">
-                            <p>This hammock class is designed to build endurance and challenge your creativity. To attend this class you must be able to do an aerial invert. Wear leggings/tights and a fitted shirt. Please do not wear jewelry or clothing with any of the following: Sequins, rhinestones or zippers. Must attend Hammock 1.5</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Black Light I & II & Chair Dancing</h3>
-                        <div class="class-content-14">
-                            <p>Venture into the sexy side of pole and dance. In this class we’ll be learning sensual, naughty, and sexy moves done in the dark with black lights. This class is a confidence building, incredible workout that will leave you wanting more.  All levels welcome ( See instructor for Black Light II). Heels not required but encouraged and leg warmers or socks to protect those knees. Come prepared to have the most fun dancing possible, and don't forget your UV reactive clothing! This class is for people 18 years and older. No exceptions. Anyone who is willing to participate in this class is welcome to attend. This is a safe space for all!</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Standing Acro</h3>
-                        <div class="class-content">
-                            <p>Standing acrobatics will focus on circus, dance, and cheer style lifts. It is a fun, high energy class with a strong focus on safety. This class will help build both strength and trust in a supportive community environment. All levels and ages are welcome. No Partner required!</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white">
+                        <div class="container align-middle">
+                        <h3 class="">Standing Acro</h3>
+                        <button class="show-more mt-3 mb-3 dropdown-toggle py-3 d-grid d-md-block col-6-lg col-8-md col-12 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#acro" aria-controls="acro" aria-expanded="false">Learn More</button>
+                            <div class="class-content collapse" id="acro">
+                                <div class="" id="acro">
+                                 <p>Standing acrobatics will focus on circus, dance, and cheer style lifts. It is a fun, high energy class with a strong focus on safety. This class will help build both strength and trust in a supportive community environment. All levels and ages are welcome. No Partner required!</p>
+                                </div>
+                              </div>
+                    
                         </div>
                     </div>
                 </div>
@@ -213,52 +326,60 @@
         <p class="contact-p">...But wait- There's more! Talk to an instructor or studio manager for full list of classes!</p>
 
     </main>
-    <footer>
-        <ul class="addresses">
-            <li><h4 class="locations">LOCATIONS</h4></li>
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
 
-            <li><p class="ogden">3230 Washington Blvd, Ogden, Utah 84401</p></li>
+                <ul class="addresses col-12 col-md-6 col-lg-3 mb-4">
+                    <li><h4 class="locations">LOCATIONS</h4></li>
 
-            <li><p class="centerville">803 N 1250 W Suite 3, Centerville, Utah 84014</p></li>
-        </ul>
+                    <li><p class="ogden">3230 Washington Blvd, Ogden, Utah 84401</p></li>
 
-        <div class="flag">
-            <img loading="lazy" sizes="284px" srcset="https://static.wixstatic.com/media/20e23c_b84a7819f66945fab19c50dad7d82275~mv2.jpg/v1/fill/w_284,h_177,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4366.jpg 1x, https://static.wixstatic.com/media/20e23c_b84a7819f66945fab19c50dad7d82275~mv2.jpg/v1/fill/w_568,h_354,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4366.jpg 2x" id="img_comp-lge4aw6c" src="https://static.wixstatic.com/media/20e23c_b84a7819f66945fab19c50dad7d82275~mv2.jpg/v1/fill/w_284,h_177,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4366.jpg" alt="IMG_4366.jpg" style="object-fit:cover" class="BI8PVQ Tj01hh" width="284" height="177">
+                    <li><p class="centerville">803 N 1250 W Suite 3, Centerville, Utah 84014</p></li>
+                </ul>
+
+                <div class="flag col-12 col-md-6 col-lg-3 mb-4 align-items-center">
+                    <img loading="lazy" sizes="284px" srcset="https://static.wixstatic.com/media/20e23c_b84a7819f66945fab19c50dad7d82275~mv2.jpg/v1/fill/w_284,h_177,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4366.jpg 1x, https://static.wixstatic.com/media/20e23c_b84a7819f66945fab19c50dad7d82275~mv2.jpg/v1/fill/w_568,h_354,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4366.jpg 2x" id="img_comp-lge4aw6c" src="https://static.wixstatic.com/media/20e23c_b84a7819f66945fab19c50dad7d82275~mv2.jpg/v1/fill/w_284,h_177,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4366.jpg" alt="IMG_4366.jpg" style="object-fit:cover" class="BI8PVQ Tj01hh" width="284" height="177">
+                </div>
+
+                <ul class="contact-info col-12 col-md-6 col-lg-3 mb-4">
+                    <h4 class="contact">CONTACT</h4>
+                    <li><p class="phone-number">385-244-7163</p></li>
+                    <li><p class="texting-available">*Texting Available</p></li>
+                    <li><p class="email"><a href="mailto:hello@dancekairos.com" class="email">hello@dancekairos.com</a></p></li>
+                    <li><p class="memberships2">*Memberships are non-transferable.</p></li>
+                    <li><p class="dual-locations2">Ask about a dual membership to attend both locations!</p></li>
+                </ul>
+
+                <div class="kairos-quote col-12 col-md-6 col-lg-3 mb-4 text-center">
+                    <h4>KAIROS</h4>
+                    <p>"The opportune moment in time or action & movement."</p>
+
+                    <div id="socials" class=" d-flex justify-content-center gap-3 mt-3">
+                        <a href="https://www.instagram.com/cirquedukairos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgb(214, 214, 102)" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg> </a>
+
+                        <a href="https://x.com/DanceKairos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgb(214, 214, 102)" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                        </svg></a>
+
+                        <a href="https://www.facebook.com/cirquedukairos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgb(214, 214, 102)" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg>
+                        </a>
+                    </div>
+                </div>
+
+        
+                <div class="">
+                    <p class="copyright text-center ">&copy; Queer Owned & Operated Small Business.</p>
+                </div>
+            </div>
         </div>
-
-        <ul class="contact-info">
-            <h4 class="contact">CONTACT</h4>
-            <li><p class="phone-number">385-244-7163</p></li>
-            <li><p class="texting-available">*Texting Available</p></li>
-            <li><p class="email"><a href="mailto:hello@dancekairos.com" class="email">hello@dancekairos.com</a></p></li>
-            <li><p class="memberships2">*Memberships are non-transferable.</p></li>
-            <li><p class="dual-locations2">Ask about a dual membership to attend both locations!</p></li>
-        </ul>
-
-        <div class="kairos-quote">
-            <h4>KAIROS</h4>
-            <p>"The opportune moment in time or action & movement."</p>
-        </div>
-
-        <div id="socials">
-            <a href="https://www.instagram.com/cirquedukairos">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgb(214, 214, 102)" class="bi bi-instagram" viewBox="0 0 16 16">
-            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-            </svg> </a>
-
-            <a href="https://x.com/DanceKairos">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgb(214, 214, 102)" class="bi bi-twitter-x" viewBox="0 0 16 16">
-            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-            </svg></a>
-
-            <a href="https://www.facebook.com/cirquedukairos">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgb(214, 214, 102)" class="bi bi-facebook" viewBox="0 0 16 16">
-            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-            </svg>
-            </a>
-        </div>
-
-        <p class="copyright">&copy; Queer Owned & Operated Small Business.</p>
     </footer>
 
 
